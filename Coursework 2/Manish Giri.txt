@@ -1,0 +1,996 @@
+Script started on Sun 24 Dec 2017 09:14:04 AM +0545
+bash: alias: ls -a/ wc -c: not found
+bash: alias: moAsubsir: not found
+bash: alias: `ls ': invalid alias name
+bash: alias: noAcs: not found
+bash: alias: ls /grep 'g'/'t'/'w'/ cc -w: not found
+]0;student@Islington: ~student@Islington:~$ mkdir c[K[K[K[K[K[K[Kpwd
+/home/student
+]0;student@Islington: ~student@Islington:~$ mkdir cricket
+]0;student@Islington: ~student@Islington:~$ mkdir cricket/bangladesh
+]0;student@Islington: ~student@Islington:~$ mkdir cricket/bangladesh[K[K[K[K[K[K[K[K[K[Kindia
+]0;student@Islington: ~student@Islington:~$ mkdir cricket/india[K[K[K[K[Kaustralia
+]0;student@Islington: ~student@Islington:~$ mkdir cricket/australia[K[K[K[K[K[K[K[K[KEngland
+]0;student@Islington: ~student@Islington:~$ mkdir cricket/Englandaustralia[K[K[K[K[K[K[K[K[KPakistan
+]0;student@Islington: ~student@Islington:~$ cd cricket
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls
+[0m[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mindia[0m  [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd india
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ cat >goa
+asdasd
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ cat >mumbai
+asdasd
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ cat >banglore
+asdasda
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ ls
+banglore  goa  mumbai
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls
+[0m[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mindia[0m  [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ rm[K[Kcd india
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ rm -i goa
+rm: remove regular file 'goa'? y
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ rm banglore[K[K[K[K[K[K[K[Kmumbai
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ rm banglore
+]0;student@Islington: ~/cricket/indiastudent@Islington:~/cricket/india$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ rm -r -f india
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls
+[0m[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ echo "Hello! ai[K[Ki am proud to be part of i[KIslington fam ily
+> 14<(2:8)"
+Hello! i am proud to be part of Islington family
+14<(2:8)
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ pwd;cd;pwd
+/home/student/cricket
+/home/student
+]0;student@Islington: ~student@Islington:~$ echo "t[KFirst pwd showes[K[Ks that where we are and trhen[K[K[K[Khen cd takes t o the[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K t o the[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+> to the cricket and last pwd shows that we are in cricket directory and then fi nally prints out [K"
+First pwd shows that where we are and then cd takes 
+to the cricket and last pwd shows that we are in cricket directory and then finally prints out
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ cd cricket/australia
+]0;student@Islington: ~/cricket/australiastudent@Islington:~/cricket/australia$ 
+]0;student@Islington: ~/cricket/australiastudent@Islington:~/cricket/australia$ pwd;cd ..;pwd;cd ..;pwd
+/home/student/cricket/australia
+/home/student/cricket
+/home/student
+]0;student@Islington: ~student@Islington:~$ echo "pwd shows that we are in homew[K directory then csd [K[K[Kd takes  to the cricekt directory and pwd sh[K[Kp[Ksh[K[K[K[A]0;student@Islington: ~student@Islington:~$ echo "pwd shows that we are in home directory then cd takes to the cricekt directory and pwd shows we are in australia and then cd to the cricket and finally pwd priunts[K[K[K[Knts w e [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw here we are"
+pwd shows that we are in home directory then cd takes to the cricekt directory and pwd shows we are in australia and then cd to the cricket and finally pwd prints where we are
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ cd;pwd
+/home/student
+]0;student@Islington: ~student@Islington:~$ ls
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;student@Islington: ~student@Islington:~$ ls -a
+[0m[01;34m.[0m              .basrc   [01;34mCricket[0m    [01;34mDownloads[0m      [01;34mMusic[0m             [01;34mPublic[0m                     .vboxclient-display.pid      [01;34m.vnc[0m           .xsession-errors
+[01;34m..[0m             [01;34m.cache[0m   [01;34m.dbus[0m      [01;34m.gconf[0m         nirmaltamang.txt  .sudo_as_admin_successful  .vboxclient-draganddrop.pid  .Xauthority    .xsession-errors.old
+.bash_history  cd       [01;34mDesktop[0m    .ICEauthority  .pam_environment  [01;34mTemplates[0m                  .vboxclient-seamless.pid     .Xdefaults
+.bash_logout   [01;34m.config[0m  .dmrc      [01;34m.local[0m         [01;34mPictures[0m          [01;34m.thumbnails[0m                [01;34mVideos[0m                       .xinputrc
+.bashrc        [01;34mcricket[0m  [01;34mDocuments[0m  [01;34m.mozilla[0m       .profile          .vboxclient-clipboard.pid  .viminfo                     .xscreensaver
+]0;student@Islington: ~student@Islington:~$ ls -al
+total 164
+drwxr-xr-x 20 student student 4096 Dec 24 09:14 [0m[01;34m.[0m
+drwxr-xr-x  3 root    root    4096 Dec 12 15:34 [01;34m..[0m
+-rw-------  1 student student 2544 Dec 24 09:05 .bash_history
+-rw-r--r--  1 student student  220 Dec 12 15:34 .bash_logout
+-rw-r--r--  1 student student 3874 Dec 24 08:55 .bashrc
+-rw-rw-r--  1 student student   29 Dec 24 08:51 .basrc
+drwxrwxr-x  8 student student 4096 Dec 24 07:26 [01;34m.cache[0m
+-rw-rw-r--  1 student student    0 Dec 24 08:57 cd
+drwxr-xr-x 11 student student 4096 Dec 24 09:04 [01;34m.config[0m
+drwxrwxr-x  6 student student 4096 Dec 24 09:18 [01;34mcricket[0m
+drwxrwxr-x  6 student student 4096 Dec 24 07:40 [01;34mCricket[0m
+drwx------  3 student student 4096 Dec 12 15:43 [01;34m.dbus[0m
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mDesktop[0m
+-rw-r--r--  1 student student   26 Dec 12 15:48 .dmrc
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mDocuments[0m
+drwxr-xr-x  2 student student 4096 Dec 12 15:57 [01;34mDownloads[0m
+drwx------  2 student student 4096 Dec 24 08:59 [01;34m.gconf[0m
+-rw-------  1 student student  990 Dec 24 07:16 .ICEauthority
+drwxrwxr-x  3 student student 4096 Dec 12 15:43 [01;34m.local[0m
+drwx------  5 student student 4096 Dec 24 08:59 [01;34m.mozilla[0m
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mMusic[0m
+-rw-rw-r--  1 student student 8192 Dec 24 09:26 nirmaltamang.txt
+-rw-r--r--  1 student student  230 Dec 12 15:48 .pam_environment
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mPictures[0m
+-rw-r--r--  1 student student  655 Dec 12 15:34 .profile
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mPublic[0m
+-rw-r--r--  1 student student    0 Dec 12 15:50 .sudo_as_admin_successful
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mTemplates[0m
+drwxrwxr-x  3 student student 4096 Dec 24 08:59 [01;34m.thumbnails[0m
+-rw-r-----  1 student student    5 Dec 24 07:16 .vboxclient-clipboard.pid
+-rw-r-----  1 student student    5 Dec 24 07:16 .vboxclient-display.pid
+-rw-r-----  1 student student    5 Dec 24 07:16 .vboxclient-draganddrop.pid
+-rw-r-----  1 student student    5 Dec 24 07:16 .vboxclient-seamless.pid
+drwxr-xr-x  2 student student 4096 Dec 12 15:43 [01;34mVideos[0m
+-rw-------  1 student student  508 Dec 12 16:07 .viminfo
+drwxr-xr-x  2 student student 4096 Dec 12 15:34 [01;34m.vnc[0m
+-rw-------  1 student student   54 Dec 24 07:16 .Xauthority
+-rw-r--r--  1 student student 1600 Dec 12 15:34 .Xdefaults
+-rw-rw-r--  1 student student  131 Dec 12 15:44 .xinputrc
+-rw-r--r--  1 student student   14 Dec 12 15:34 .xscreensaver
+-rw-------  1 student student 1915 Dec 24 09:00 .xsession-errors
+-rw-------  1 student student 2279 Dec 15 06:48 .xsession-errors.old
+]0;student@Islington: ~student@Islington:~$ cd;pwd;cd cw1;pwd
+/home/student
+bash: cd: cw1: No such file or directory
+/home/student
+]0;student@Islington: ~student@Islington:~$ echo "it is becase[K[Kuse we haven'y[Kt made any such directory [K"
+it is because we haven't made any such directory
+]0;student@Islington: ~student@Islington:~$ ls -R
+.:
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+
+./cricket:
+[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+
+./cricket/australia:
+
+./cricket/bangladesh:
+
+./cricket/England:
+
+./cricket/Pakistan:
+
+./Cricket:
+[01;34mAustralia[0m  [01;34mBangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+
+./Cricket/Australia:
+
+./Cricket/Bangladesh:
+bashrc  cd  testX  testY  testZ
+
+./Cricket/England:
+
+./Cricket/Pakistan:
+ls: cannot access './Cricket/Pakistan/testY': Permission denied
+ls: cannot access './Cricket/Pakistan/testZ': Permission denied
+ls: cannot access './Cricket/Pakistan/testResult': Permission denied
+ls: cannot access './Cricket/Pakistan/testX': Permission denied
+testResult  testX  testY  testZ
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+[01;31mcsh_20110502-2.1ubuntu1_i386.deb[0m
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+]0;student@Islington: ~student@Islington:~$ cd cricket/pakistan
+bash: cd: cricket/pakistan: No such file or directory
+]0;student@Islington: ~student@Islington:~$ pwd
+/home/student
+]0;student@Islington: ~student@Islington:~$ ls
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;student@Islington: ~student@Islington:~$ cd cricket
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls
+[0m[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd Pakistan
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat >testx
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat ?[K>testy
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF c Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ CAT >TESTZ
+CAT: command not found
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat >testz
+aaaaabbbbb Aaaaaa
+AAAAAAAA
+bbbccc Bbbbbbb
+BBBBBB
+ff-ff Ccccc
+CCCCCC
+cccdd Dddddd
+DDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ CAT [K[K[K[Kcat testx
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testy
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testz
+aaaaabbbbb Aaaaaa
+AAAAAAAA
+bbbccc Bbbbbbb
+BBBBBB
+ff-ff Ccccc
+CCCCCC
+cccdd Dddddd
+DDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cp testx testy testz ../bangladesh
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ echo "copyi8ing [K[K[K[K[Kng all files to the nab[K[K[Kbangladesh"
+copying all files to the bangladesh
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cd cricket/bangladesh
+bash: cd: cricket/bangladesh: No such file or directory
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd bangladesh
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ ls
+testx  testy  testz
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ eecho[K[K[K[Kcho "checking whj[Kehter[K[K[K[Kther the files are copy or not"
+checking whether the files are copy or not
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd Pakistan
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx testy testz
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+aaaaabbbbb Aaaaaa
+AAAAAAAA
+bbbccc Bbbbbbb
+BBBBBB
+ff-ff Ccccc
+CCCCCC
+cccdd Dddddd
+DDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx testy testz>testResult
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx - testy>>testResult
+asdasdasd
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ v[Kcat testResult
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+aaaaabbbbb Aaaaaa
+AAAAAAAA
+bbbccc Bbbbbbb
+BBBBBB
+ff-ff Ccccc
+CCCCCC
+cccdd Dddddd
+DDDDDDD
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+asdasdasd
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ echo "Displaying all the testResult"
+Displaying all the testResult
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat test[xyz]
+aaaabbb 	Aaaaaa
+AAAAAAAAA
+bbbbccc Bbbbbbbb
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+aaaaabbbb Aaaaaa
+AAAAAAAAA
+bbbccc Bbbbb
+BBBBBBB
+FF-FF Ccccccc
+CCCCCCCC
+cccddd Dddddd
+DDDDDD
+aaaaabbbbb Aaaaaa
+AAAAAAAA
+bbbccc Bbbbbbb
+BBBBBB
+ff-ff Ccccc
+CCCCCC
+cccdd Dddddd
+DDDDDDD
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ echo "di[K[KDisplayi9ng [K[K[K[Kng all testx testy and testz togerther[K[K[K[K[Kther"
+Displaying all testx testy and testz together
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ 
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ ls -l
+total 16
+-rw-rw-r-- 1 student student 479 Dec 24 09:34 testResult
+-rw-rw-r-- 1 student student  98 Dec 24 09:29 testx
+-rw-rw-r-- 1 student student  92 Dec 24 09:30 testy
+-rw-rw-r-- 1 student student  89 Dec 24 09:30 testz
+-rw-rw-r-- 1 student student   0 Dec 24 09:30 TESTZ
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ chmod ugho[K[Ko-rwx testx
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ ls -l testx
+---------- 1 student student 98 Dec 24 09:29 testx
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ chmod ugo rwq[K testx
+chmod: invalid mode: ‘ugo’
+Try 'chmod --help' for more information.
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx
+cat: testx: Permission denied
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat >>testx
+bash: testx: Permission denied
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ chmod chmod[K[K[K[K[K[K[K[K[K[K[Kchmod ugo-rw testx
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx
+cat: testx: Permission denied
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ ls -l testx
+---------- 1 student student 98 Dec 24 09:29 testx
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cat testx
+cat: testx: Permission denied
+]0;student@Islington: ~/cricket/Pakistanstudent@Islington:~/cricket/Pakistan$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -l pakistan
+ls: cannot access 'pakistan': No such file or directory
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -l pakistan[K[K[K[K[K[K[K[KPalistan[K[K[K[K[K[Kkistan
+total 16
+-rw-rw-r-- 1 student student 479 Dec 24 09:34 testResult
+---------- 1 student student  98 Dec 24 09:29 testx
+-rw-rw-r-- 1 student student  92 Dec 24 09:30 testy
+-rw-rw-r-- 1 student student  89 Dec 24 09:30 testz
+-rw-rw-r-- 1 student student   0 Dec 24 09:30 TESTZ
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -al Pakistan
+total 24
+drwxrwxr-x 2 student student 4096 Dec 24 09:34 [0m[01;34m.[0m
+drwxrwxr-x 6 student student 4096 Dec 24 09:18 [01;34m..[0m
+-rw-rw-r-- 1 student student  479 Dec 24 09:34 testResult
+---------- 1 student student   98 Dec 24 09:29 testx
+-rw-rw-r-- 1 student student   92 Dec 24 09:30 testy
+-rw-rw-r-- 1 student student   89 Dec 24 09:30 testz
+-rw-rw-r-- 1 student student    0 Dec 24 09:30 TESTZ
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ chmod ugo-rwx Pakistan
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -al Pakistan
+ls: cannot open directory 'Pakistan': Permission denied
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cat cat pak[K[K[KPakistan/testx
+cat: cat: No such file or directory
+cat: Pakistan/testx: Permission denied
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ chmod[K[K[K[K[Kcat [K[K[K[Kchmod ugoi[K-rw Pakistan
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -al
+total 24
+drwxrwxr-x  6 student student 4096 Dec 24 09:18 [0m[01;34m.[0m
+drwxr-xr-x 20 student student 4096 Dec 24 09:14 [01;34m..[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:15 [01;34maustralia[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:31 [01;34mbangladesh[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:15 [01;34mEngland[0m
+d---------  2 student student 4096 Dec 24 09:34 [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cat Pakistan
+cat: Pakistan: Permission denied
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cat Pakistan/testx
+cat: Pakistan/testx: Permission denied
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cat >pakistan
+asdasd
+^E]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cat pakistam[Km[Kn
+asdasd
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ ls -R Pakistan
+ls: cannot open directory 'Pakistan': Permission denied
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd bangladesh
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep bb testx
+aaaa[01;31m[Kbb[m[Kb 	Aaaaaa
+[01;31m[Kbb[m[K[01;31m[Kbb[m[Kccc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "uts[K[K[Kit shows where the letter b in [K[K[K[K[K[K b is"
+it shows where the letter b is
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -v bb testx
+AAAAAAAAA
+BBBBBBBBB
+fff-fff Cccccc
+ccccccdddd Ddddddd
+DDDDDDDDDD
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo"it shows the letter expect small b"
+echoit shows the letter expect small b: command not found
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo"it shows the letter expect small b"[C[1@ 
+it shows the letter expect small b
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -n bb testx
+[32m[K1[m[K[36m[K:[m[Kaaaa[01;31m[Kbb[m[Kb 	Aaaaaa
+[32m[K3[m[K[36m[K:[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kccc B[01;31m[Kbb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "this commands shows the small letter b"
+this commands shows the small letter b
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ ge[Krep -l[Ki[Kl bb *
+[35m[Ktestx[m[K
+[35m[Ktesty[m[K
+[35m[Ktestz[m[K
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "this cio[K[Kommna[K[Kands shows the test x test y and testz in a list"
+this commands shows the test x test y and testz in a list
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -i bb *
+[35m[Ktestx[m[K[36m[K:[m[Kaaaa[01;31m[Kbb[m[Kb 	Aaaaaa
+[35m[Ktestx[m[K[36m[K:[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kccc [01;31m[KBb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[K
+[35m[Ktestx[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[Ktesty[m[K[36m[K:[m[Kaaaaa[01;31m[Kbb[m[K[01;31m[Kbb[m[K Aaaaaa
+[35m[Ktesty[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbccc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[Ktesty[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[Ktestz[m[K[36m[K:[m[Kaaaaa[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb Aaaaaa
+[35m[Ktestz[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbccc [01;31m[KBb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb
+[35m[Ktestz[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ t[Kecho "this commands shows the letter b bin [K[K[K[Kin testx y [K[K[K[K x y anb[K[Knd z"
+this commands shows the letter b in test x y and z
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -i BB v[K*
+[35m[Ktestx[m[K[36m[K:[m[Kaaaa[01;31m[Kbb[m[Kb 	Aaaaaa
+[35m[Ktestx[m[K[36m[K:[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kccc [01;31m[KBb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[K
+[35m[Ktestx[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[Ktesty[m[K[36m[K:[m[Kaaaaa[01;31m[Kbb[m[K[01;31m[Kbb[m[K Aaaaaa
+[35m[Ktesty[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbccc [01;31m[KBb[m[K[01;31m[Kbb[m[Kb
+[35m[Ktesty[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[KB
+[35m[Ktestz[m[K[36m[K:[m[Kaaaaa[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb Aaaaaa
+[35m[Ktestz[m[K[36m[K:[m[K[01;31m[Kbb[m[Kbccc [01;31m[KBb[m[K[01;31m[Kbb[m[K[01;31m[Kbb[m[Kb
+[35m[Ktestz[m[K[36m[K:[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K[01;31m[KBB[m[K
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "this commands shows the capital B in each rows "[K[K"
+this commands shows the capital B in each rows
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -c bb*
+0
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -c bb*[K *
+[35m[Ktestx[m[K[36m[K:[m[K2
+[35m[Ktesty[m[K[36m[K:[m[K2
+[35m[Ktestz[m[K[36m[K:[m[K2
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "this commands explains the number of b in [K testx y and z"
+this commands explains the number of b in testx y and z
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep '^A'*
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep '^A'* *[C
+[35m[Ktestx[m[K[36m[K:[m[K[01;31m[KA[m[KAAAAAAAA
+[35m[Ktesty[m[K[36m[K:[m[K[01;31m[KA[m[KAAAAAAAA
+[35m[Ktestz[m[K[36m[K:[m[K[01;31m[KA[m[KAAAAAAA
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ thi[K[K[Kecho "this commanbd[K[K[K[K[K[K[K[K[K[K[K[K[K[K"This commands shows the capuita[K[K[K[Kita;l[K[Kl A le[K[K[K[Kletter of A"
+This commands shows the capital letter of A
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -n'^' testx
+grep: invalid option -- '^'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ grep -n'^' testx[1@ [C[C[C[C[C[C[C[C[C
+[32m[K1[m[K[36m[K:[m[Kaaaabbb 	Aaaaaa
+[32m[K2[m[K[36m[K:[m[KAAAAAAAAA
+[32m[K3[m[K[36m[K:[m[Kbbbbccc Bbbbbbbb
+[32m[K4[m[K[36m[K:[m[KBBBBBBBBB
+[32m[K5[m[K[36m[K:[m[Kfff-fff Cccccc
+[32m[K6[m[K[36m[K:[m[Kccccccdddd Ddddddd
+[32m[K7[m[K[36m[K:[m[KDDDDDDDDDD
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ echo "This commands shows the files in the testx with th[K[Klsiting [K[K[K[K[K[K[Kisting it into the number"
+This commands shows the files in the testx with listing it into the number
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ alias "lsl=ls -l"
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ alias "lsl=ls -l"[C[C[1@s[C[1P[1@a[C[C[C[C[C[Cal"[C[C
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ 
+]0;student@Islington: ~/cricket/bangladeshstudent@Islington:~/cricket/bangladesh$ cd ..
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias lsal='ls -al'
+alias lsl='ls -l'
+alias noAllf=''
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ lsl
+total 20
+drwxrwxr-x 2 student student 4096 Dec 24 09:15 [0m[01;34maustralia[0m
+drwxrwxr-x 2 student student 4096 Dec 24 09:31 [01;34mbangladesh[0m
+drwxrwxr-x 2 student student 4096 Dec 24 09:15 [01;34mEngland[0m
+-rw-rw-r-- 1 student student    8 Dec 24 09:46 pakistan
+d--------- 2 student student 4096 Dec 24 09:34 [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ lsal
+total 28
+drwxrwxr-x  6 student student 4096 Dec 24 09:46 [0m[01;34m.[0m
+drwxr-xr-x 20 student student 4096 Dec 24 09:14 [01;34m..[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:15 [01;34maustralia[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:31 [01;34mbangladesh[0m
+drwxrwxr-x  2 student student 4096 Dec 24 09:15 [01;34mEngland[0m
+-rw-rw-r--  1 student student    8 Dec 24 09:46 pakistan
+d---------  2 student student 4096 Dec 24 09:34 [01;34mPakistan[0m
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ unalias lsl
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ unalias lsal
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ 
+]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ nano .bashrc
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;90H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                                    File: .bashrc                                                                                                              [42;1H^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7m^Y(B[m Prev Page     (B[0;7mM-\(B[m First Line   (B[0;7mM-W(B[m WhereIs Next (B[0;7m^^(B[m Mark Text     (B[0;7mM-}(B[m Indent Text[43d(B[0;7m^X(B[m Exit[43;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7m^V(B[m Next Page     (B[0;7mM-/(B[m Last Line    (B[0;7mM-](B[m To Bracket   (B[0;7mM-^(B[m Copy Text    (B[0;7mM-{(B[m Unindent Text[3d[41d[J[43;191H[43;1H[?1049l[?1l>]0;student@Islington: ~/cricketstudent@Islington:~/cricket$ cd ..
+]0;student@Islington: ~student@Islington:~$ cd ..nano .bashrc[K[K[K[K[K[K[K[K[K[K[K[Kcat >> .bashrc
+alias "lsl  =ls -l"
+]0;student@Islington: ~student@Islington:~$ cat >> .bashrc
+^[[A^[[A        alias "lsal=lsal -l"^[[D     "^[[D           -al"
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ 
+]0;student@Islington: ~student@Islington:~$ alias "noalf[K[K[KALL[K[Kllf lsal -l"
+bash: alias: noAllf lsal -l: not found
+]0;student@Islington: ~student@Islington:~$ alias "lsl=ls -l"
+]0;student@Islington: ~student@Islington:~$ alias 'noAlf=ls -al'
+]0;student@Islington: ~student@Islington:~$ ls -R
+.:
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+
+./cricket:
+[01;34maustralia[0m  [01;34mbangladesh[0m  [01;34mEngland[0m  pakistan  [01;34mPakistan[0m
+
+./cricket/australia:
+
+./cricket/bangladesh:
+testx  testy  testz
+
+./cricket/England:
+ls: cannot open directory './cricket/Pakistan': Permission denied
+
+./Cricket:
+[01;34mAustralia[0m  [01;34mBangladesh[0m  [01;34mEngland[0m  [01;34mPakistan[0m
+
+./Cricket/Australia:
+
+./Cricket/Bangladesh:
+bashrc  cd  testX  testY  testZ
+
+./Cricket/England:
+
+./Cricket/Pakistan:
+ls: cannot access './Cricket/Pakistan/testY': Permission denied
+ls: cannot access './Cricket/Pakistan/testZ': Permission denied
+ls: cannot access './Cricket/Pakistan/testResult': Permission denied
+ls: cannot access './Cricket/Pakistan/testX': Permission denied
+testResult  testX  testY  testZ
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+[01;31mcsh_20110502-2.1ubuntu1_i386.deb[0m
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+]0;student@Islington: ~student@Islington:~$ alias 'noAsubsir ls -R'[1@+[1P[1@=[C[1P
+]0;student@Islington: ~student@Islington:~$ ls -l g*
+ls: cannot access 'g*': No such file or directory
+]0;student@Islington: ~student@Islington:~$ ls -l g* *
+ls: cannot access 'g': No such file or directory
+-rw-rw-r-- 1 student student     0 Dec 24 08:57 cd
+-rw-rw-r-- 1 student student 36864 Dec 24 10:04 nirmaltamang.txt
+
+cricket:
+total 20
+drwxrwxr-x 2 student student 4096 Dec 24 09:15 [0m[01;34maustralia[0m
+drwxrwxr-x 2 student student 4096 Dec 24 09:31 [01;34mbangladesh[0m
+drwxrwxr-x 2 student student 4096 Dec 24 09:15 [01;34mEngland[0m
+-rw-rw-r-- 1 student student    8 Dec 24 09:46 pakistan
+d--------- 2 student student 4096 Dec 24 09:34 [01;34mPakistan[0m
+
+Cricket:
+total 16
+drwxrwxr-x 2 student student 4096 Dec 24 07:31 [01;34mAustralia[0m
+drwxrwxr-x 2 student student 4096 Dec 24 08:50 [01;34mBangladesh[0m
+drwxrwxr-x 2 student student 4096 Dec 24 07:31 [01;34mEngland[0m
+drw------- 2 student student 4096 Dec 24 08:20 [01;34mPakistan[0m
+
+Desktop:
+total 0
+
+Documents:
+total 0
+
+Downloads:
+total 236
+-rw-rw-r-- 1 student student 238508 Dec 12 15:57 [01;31mcsh_20110502-2.1ubuntu1_i386.deb[0m
+
+Music:
+total 0
+
+Pictures:
+total 0
+
+Public:
+total 0
+
+Templates:
+total 0
+
+Videos:
+total 0
+]0;student@Islington: ~student@Islington:~$ ls -d g*
+ls: cannot access 'g*': No such file or directory
+]0;student@Islington: ~student@Islington:~$ ls -d g* *
+ls: cannot access 'g': No such file or directory
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;student@Islington: ~student@Islington:~$ ls -d g *[C[1P *c *
+ls: cannot access 'c': No such file or directory
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;student@Islington: ~student@Islington:~$ ls -d c *[K[K[Kg * ;ls -d t * ; ls -d w *
+ls: cannot access 'g': No such file or directory
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+ls: cannot access 't': No such file or directory
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+ls: cannot access 'w': No such file or directory
+cd  [0m[01;34mcricket[0m  [01;34mCricket[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  nirmaltamang.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;student@Islington: ~student@Islington:~$ alias '[K[K[K[K[K[K[Khistory
+    1  ping google.com
+    2  sudo apt-get install csh
+    3  sudo apt-get update
+    4  ping google.com
+    5  sudo init 0
+    6  sudo apt-get install csh
+    7  sudo apt-get update
+    8  ping google.com
+    9  ./VBoxLinuxAdditions.run 
+   10  sudo ./VBoxLinuxAdditions.run 
+   11  cd
+   12  cd Downloads/
+   13  ls
+   14  sudo dkpkg
+   15  sudo dpkg -i csh_20110502-2.1ubuntu1_i386.deb 
+   16  csh
+   17  xit
+   18  ex
+   19  sudo init 0
+   20  sdfads
+   21  history 
+   22  exit
+   23  pwd
+   24  mkdir Cricket
+   25  mkdir Cricket/India
+   26  mkdir Cricket/Australia
+   27  mkdir Cricket/England
+   28  mkdir Cricket/Pakistan
+   29  mkdir Cricket/Bangladesh
+   30  ls
+   31  cd Cricket
+   32  ls
+   33  cd India
+   34  cat >Goa
+   35  cat >Mumbai
+   36  cat >Delhi
+   37  ls
+   38  pwd
+   39  cd ..
+   40  rm -i India/Goa
+   41  rm -i India/Mumbai
+   42  rm -i India/Delhi
+   43  cd India
+   44  ls
+   45  cd ..
+   46  rmdir India
+   47  ls
+   48  echo "Hello! I am proud to be part of Islington Family."
+   49  echo "Hello! I am proud to be part of Islington Family.
+   50  14 < (2:8)"
+   51  pwd
+   52  cd Australia
+   53  pwd ; cd ; pwd
+   54  cd Cricket/Australia
+   55  pwd ; cd .. ; pwd ; cd .. ; pwd
+   56  echo " when above command is given then it print first all directory and after cd .. then it goes one step back from current directory again pwd will print remaining directory then after cd .. it goes again back to main home directory."
+   57  cd ; pwd
+   58  echo "print current directory"
+   59  ls
+   60  echo "Display all Folder"
+   61  la -a
+   62  ls -a
+   63  echo " display all hidden files"
+   64  ls -al
+   65  echo " display all files and root"
+   66  cd ; pwd ; cd cw1 ; pwd
+   67  echo " cw1 doesnot exist on this directory"
+   68  ls -R
+   69  echo " show all folders and sub-folder in it."
+   70  cd Cricket/Pakistan
+   71  cat > testX
+   72  cat >testY
+   73  cat > testZ
+   74  cat testX
+   75  cat testY
+   76  cat testZ
+   77  cp testX testY testZ ../Bangladesh
+   78  cat testX testY testZ
+   79  cat testX testY testZ > testResult
+   80  cat testX - testY >> testResult
+   81  cat testResult
+   82  cat test[XYZ]
+   83  echo " display all files in testXYZ"
+   84  chmod Pakistan
+   85  ls -ld
+   86  ls -l
+   87  chmod ugo-rwx testX
+   88  ls -l
+   89  cat > testX
+   90  chmod u+rw testX
+   91  ls -l
+   92  cat >testX
+   93  cat testX
+   94  cd ..
+   95  ls -ld
+   96  ls Pakistan
+   97  chmod ugo-rwx Pakistan
+   98  ls
+   99  ls Pakistan
+  100  cat >>Pakistan/testX
+  101  chmod u+rw Pakistan
+  102  ls
+  103  cd Bangladesh
+  104  grep bb testX
+  105  echo "show bb from testX"
+  106  grep -v bb testX
+  107  echo "display all files in testX except small bb"
+  108  grep -n bb testX
+  109  echo "display line contain bb"
+  110  grep -l bb *
+  111  echo "display all files contain bb"
+  112  grep -i bb *
+  113  echo "display all BB and bb in all files"
+  114  grep -i BB *
+  115  echo "display all BB and bb"
+  116  grep -c bb *
+  117  echo "display how many bb is contain each file"
+  118  grep '^A' *
+  119  echo "display A"
+  120  grep -n '^' testX
+  121  echo "display line of testX"
+  122  alias "lsl=ls -l"
+  123  alias lsl
+  124  unalias lsl
+  125  alias noAllf="ls -aR/ wc -c"
+  126  cat >> bashrc
+  127  cat >> .bashrc
+  128  alias noAsubsir "ls -aR/ wc -c"
+  129  cat >> .bashrc
+  130  cat >>cd ..
+  131  cd ..
+  132  ls -a
+  133  cat >>.basrc
+  134  cat >> .bashrc
+  135  alias noAllf
+  136  history
+  137  cat >>cd ..
+  138  script -a subashRasaili.txt
+  139  pwd
+  140  mkdir cricket
+  141  mkdir cricket/bangladesh
+  142  mkdir cricket/india
+  143  mkdir cricket/australia
+  144  mkdir cricket/England
+  145  mkdir cricket/Pakistan
+  146  cd cricket
+  147  ls
+  148  cd india
+  149  cat >goa
+  150  cat >mumbai
+  151  cat >banglore
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd india
+  156  rm -i goa
+  157  rm mumbai
+  158  rm banglore
+  159  cd ..
+  160  rm -r -f india
+  161  ls
+  162  echo "Hello! i am proud to be part of Islington family
+14<(2:8)"
+  163  pwd;cd;pwd
+  164  echo "First pwd shows that where we are and then cd takes 
+to the cricket and last pwd shows that we are in cricket directory and then finally prints out"
+  165  cd cricket/australia
+  166  pwd;cd ..;pwd;cd ..;pwd
+  167  echo "pwd shows that we are in home directory then cd takes to the cricekt directory and pwd shows we are in australia and then cd to the cricket and finally pwd prints where we are"
+  168  cd;pwd
+  169  ls
+  170  ls -a
+  171  ls -al
+  172  cd;pwd;cd cw1;pwd
+  173  echo "it is because we haven't made any such directory"
+  174  ls -R
+  175  cd cricket/pakistan
+  176  pwd
+  177  ls
+  178  cd cricket
+  179  ls
+  180  cd Pakistan
+  181  cat >testx
+  182  cat >testy
+  183  CAT >TESTZ
+  184  cat >testz
+  185  cat testx
+  186  cat testy
+  187  cat testz
+  188  cp testx testy testz ../bangladesh
+  189  echo "copying all files to the bangladesh"
+  190  cd cricket/bangladesh
+  191  cd ..
+  192  cd bangladesh
+  193  ls
+  194  echo "checking whether the files are copy or not"
+  195  cd ..
+  196  cd Pakistan
+  197  cat testx testy testz
+  198  cat testx testy testz>testResult
+  199  cat testx - testy>>testResult
+  200  cat testResult
+  201  echo "Displaying all the testResult"
+  202  cat test[xyz]
+  203  echo "Displaying all testx testy and testz together"
+  204  ls -l
+  205  chmod ugo-rwx testx
+  206  ls -l testx
+  207  chmod ugo rw testx
+  208  cat testx
+  209  cat >>testx
+  210  chmod ugo-rw testx
+  211  cat testx
+  212  ls -l testx
+  213  cat testx
+  214  cd ..
+  215  ls -l pakistan
+  216  ls -l Pakistan
+  217  ls -al Pakistan
+  218  chmod ugo-rwx Pakistan
+  219  ls -al Pakistan
+  220  cat cat Pakistan/testx
+  221  ls -a
+  222  chmod ugo-rw Pakistan
+  223  ls -al
+  224  cat Pakistan
+  225  cat Pakistan/testx
+  226  cat >pakistan
+  227  cat pakistan
+  228  ls -R Pakistan
+  229  cd bangladesh
+  230  grep bb testx
+  231  echo "it shows where the letter b is"
+  232  grep -v bb testx
+  233  echo"it shows the letter expect small b"
+  234  echo "it shows the letter expect small b"
+  235  grep -n bb testx
+  236  echo "this commands shows the small letter b"
+  237  grep -l bb *
+  238  echo "this commands shows the test x test y and testz in a list"
+  239  grep -i bb *
+  240  echo "this commands shows the letter b in test x y and z"
+  241  grep -i BB *
+  242  echo "this commands shows the capital B in each rows"
+  243  grep -c bb*
+  244  grep -c bb *
+  245  echo "this commands explains the number of b in testx y and z"
+  246  grep '^A'*
+  247  grep '^A' *
+  248  echo "This commands shows the capital letter of A"
+  249  grep -n'^' testx
+  250  grep -n '^' testx
+  251  echo "This commands shows the files in the testx with listing it into the number"
+  252  alias "lsl=ls -l"
+  253  alias "lsal=ls -al"
+  254  cd ..
+  255  alias
+  256  lsl
+  257  lsal
+  258  unalias lsl
+  259  unalias lsal
+  260  nano .bashrc
+  261  cd ..
+  262  cat >> .bashrc
+  263  alias "noAllf lsal -l"
+  264  alias "lsl=ls -l"
+  265  alias 'noAlf=ls -al'
+  266  ls -R
+  267  alias 'noAsubsir=ls -R'
+  268  ls -l g*
+  269  ls -l g *
+  270  ls -d g*
+  271  ls -d g *
+  272  ls -d c *
+  273  ls -d g * ;ls -d t * ; ls -d w *
+  274  history
+]0;student@Islington: ~student@Islington:~$ nbo[K[KoAllf
+]0;student@Islington: ~student@Islington:~$ noAllf
+]0;student@Islington: ~student@Islington:~$ noAcs
+noAcs: command not found
+]0;student@Islington: ~student@Islington:~$ fc -e- 7
+sudo apt-get update
+[sudo] password for student: 
+
+Sorry, try again.
+[sudo] password for student: 
+
+Sorry, try again.
+[sudo] password for student: 
+sudo: 2 incorrect password attempts
+]0;student@Islington: ~student@Islington:~$ exit
+
+Script done on Sun 24 Dec 2017 10:11:05 AM +0545
